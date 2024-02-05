@@ -87,10 +87,6 @@ function createGallery() {
 createGallery();
 
 let gallery = new SimpleLightbox('.gallery a', {
-  captions: true,
-  captionSelector: 'img',
-  captionType: 'attr',
-  captionPosition: 'bottom',
   captionDelay: 250,
   captionsData: 'alt',
 });
